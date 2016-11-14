@@ -29,10 +29,6 @@ namespace PARENTHESES_BRACKETS_CHECK
 
         static void Main(string[] args)
         {
-            //var match = braces(new string[] { "[{}]()[{{()}}()]", "[{}]({{()}}()]" });
-           // foreach(var item in match)
-            //    Console.WriteLine(item);
-
             Console.WriteLine(checkBraces("[{}]()[{{()}}()]"));
             Console.WriteLine(checkBraces("[{}]({{()}}()]"));
             Console.Read();
@@ -131,7 +127,5 @@ namespace PARENTHESES_BRACKETS_CHECK
         }
 
         //https://www.hackerrank.com/domains?h_r=hrw&h_v=default
-
-
     }
 }
