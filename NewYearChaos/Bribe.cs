@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace NewYearChaos
+﻿namespace NewYearChaos
 {
     internal static class Bribe
     {

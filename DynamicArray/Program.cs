@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace DynamicArray
+﻿namespace DynamicArray
 {
     /*
      * Declare a 2-dimensional array, , of  empty arrays. All arrays are zero indexed.

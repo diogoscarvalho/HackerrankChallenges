@@ -1,9 +1,4 @@
-﻿using static System.Collections.Specialized.BitVector32;
-using System.Diagnostics.Metrics;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
-using System;
-using BenchmarkDotNet.Configs;
+﻿using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Running;
 
 namespace Booking.com

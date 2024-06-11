@@ -1,6 +1,4 @@
-﻿using System.Collections.Immutable;
-
-namespace MergeSortedArray
+﻿namespace MergeSortedArray
 {
     internal static class Solution
     {

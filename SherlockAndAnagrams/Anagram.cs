@@ -4,6 +4,8 @@ public static class Anagram
 {
     public static int SherlockAndAnagrams(string s)
     {
+        HashSet<char> a = [];
+        a.Ad
         // Hash map to store all possible substrings
         Dictionary<string, int> anagramsMap = [];
         

@@ -1,10 +1,4 @@
-﻿using Microsoft.VisualBasic;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Numerics;
-using System.Reflection.Metadata;
-using System.Runtime.InteropServices;
-using System.Xml.Linq;
-namespace SparseArrays
+﻿namespace SparseArrays
 {
     internal class Program
     {

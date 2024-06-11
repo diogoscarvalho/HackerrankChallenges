@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace TwoDArrayDS
+﻿namespace TwoDArrayDS
 {
     /*
      * Given a 2D Array, :
@@ -87,7 +85,7 @@ namespace TwoDArrayDS
         2 4 4
           2
         1 2 4
-    */ 
+    */
 
     internal class Program
     {

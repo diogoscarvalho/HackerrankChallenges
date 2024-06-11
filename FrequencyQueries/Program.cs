@@ -1,6 +1,86 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using FrequencyQueries;
 
+
+/*
+ * You are given  queries. Each query is of the form two integers described below:
+    - 1 x : Insert x in your data structure.
+    - 2 y : Delete one occurence of y from your data structure, if present.
+    - 3 z : Check if any integer is present whose frequency is exactly z. If yes, print 1 else 0.
+
+    The queries are given in the form of a 2-D array  of size  where  contains the operation, and  contains the data element.
+
+    Example
+    queries = [(1,1),(2,2),(3,2),(1,1),(1,1),(2,1),(3,2)]
+
+    The results of each operation are:
+
+    Operation   Array   Output
+    (1,1)       [1]
+    (2,2)       [1]
+    (3,2)                   0
+    (1,1)       [1,1]
+    (1,1)       [1,1,1]
+    (2,1)       [1,1]
+    (3,2)                   1
+    Return an array with the output:[0, 1].
+
+    Function Description
+
+    Complete the freqQuery function in the editor below.
+
+    freqQuery has the following parameter(s):
+
+    int queries[q][2]: a 2-d array of integers
+    
+    Returns
+    - int[]: the results of queries of type 
+
+    Sample Input 0
+    8
+    1 5
+    1 6
+    3 2
+    1 10
+    1 10
+    1 6
+    2 5
+    3 2
+
+    Sample Output 0
+    0
+    1
+
+    Sample Input 1
+    4
+    3 4
+    2 1003
+    1 16
+    3 1
+
+    Sample Output 1
+    0
+    1
+
+    Sample Input 2
+    10
+    1 3
+    2 3
+    3 2
+    1 4
+    1 5
+    1 5
+    1 4
+    3 2
+    2 4
+    3 2
+
+    Sample Output 2
+    0
+    1
+    1
+ */
+
 Console.WriteLine("Hello, World!");
 FrequencyQuery.FreqQuery(
     [
