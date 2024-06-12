@@ -1,11 +1,8 @@
-﻿using System.Collections.Concurrent;
-using System.Security.AccessControl;
-
-namespace FraudulentActivityNotifications
+﻿namespace FraudulentActivityNotifications
 {
     internal class Solution
     {
-        public static int activityNotifications(List<int> expenditures, int d)
+        public static int ActivityNotifications(List<int> expenditures, int d)
         {
             var sortedExpeditureFrequencies = new SortedDictionary<int, int>();
             for (int i = 0; i < d; i++)
